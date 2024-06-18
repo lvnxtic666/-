@@ -222,9 +222,26 @@ body{
     font-size: 14px;
     color: rgba(33, 81, 197, 1);
     text-decoration: none;
-
+    white-space: nowrap;
+}
+.footer-devider{
+    width:1px;
+    height: 187px;
+    background-color: rgba(217, 217, 217, 1);
 }
 .footer-info{
     max-width: 380px;
+    padding: 20px 0;
+}
+.footer-p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(136, 136, 168, 1);
+}
+.footer-p a{
+    color: rgba(33, 81, 197, 1);
+    ;
 }
 
